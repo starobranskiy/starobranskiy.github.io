@@ -1,0 +1,403 @@
+@import url("fonts.css");
+.hero-wrapper {
+    background: url("../img/bg33.jpg") no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#features-section .feature-item .icon-box {
+    border: 2px solid #48b4ee;
+}
+#entity-section .entity-item .icon-box {
+    border: 2px solid #77B249;
+}
+
+#features-section .feature-item .icon-box i {
+    color: #48b4ee;
+}
+#entity-section .entity-item .icon-box i {
+    color: #77B249;
+}
+
+
+#testimonial-section.page-section {
+    padding: 50px 0 0;
+    position: relative;
+}
+
+#testimonial-section.page-section::after {
+    content: '';
+    position: absolute;
+    background-image: url("../img/testimonial-bg.png");
+    background-repeat: repeat-x;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 79px;
+}
+
+#testimonial-section.page-section .quote {
+    position: relative;
+    margin-bottom: 44px;
+}
+
+#testimonial-section.page-section .quote__icon {
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+#testimonial-section.page-section .quote__icon .fa {
+    font-size: 33px;
+    background: -webkit-linear-gradient(right bottom, #48b4ee, #206f8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#testimonial-section.page-section .quote__text {
+    color: #000;
+    font-size: 23px;
+    line-height: 1.6;
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 50px;
+}
+
+#testimonial-section.page-section .quote-author {
+    display: flex;
+    align-items: center;
+}
+
+#testimonial-section.page-section .quote-author__image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#testimonial-section.page-section .quote-author__name {
+    flex: 1;
+    padding-left: 15px;
+    color: #000;
+}
+
+#testimonial-section.page-section .quote-author__name p {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#pricing-section.page-section .brands-wrapper h2 {
+    margin-bottom: 60px;
+}
+
+#pricing-section.page-section .pricing-wrapper h2 {
+    margin-top: 50px;
+}
+
+#pricing-section.page-section .brands-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+#pricing-section.page-section .brands-list li {
+    height: 56px;
+    flex-basis: 190px;
+    margin: 0 10px;
+}
+#pricing-section.page-section .brands-list li a{
+   text-decoration: underline;
+   color: #2d343e;
+}
+
+
+#pricing-section.page-section {
+    background-color: #F6F7F9;
+}
+
+#faq-section.page-section {
+    background-color: #FFF;
+}
+
+.fa-quote-left:before {
+    content: "\f10d";
+}
+
+#faq-section .faq-item {
+    padding-bottom: 15px;
+}
+
+#pricing-section .pricing-plan {
+    background-color: #FFF;
+}
+
+#pricing-section .get-quote-plan,
+#pricing-section .premium-plan {
+    margin: 0;
+}
+
+#pricing-section .premium-plan .btn-primary {
+    background-color: #7EC349;
+    border-color: #7EC349;
+}
+
+#pricing-section .pricing-plan .features-box .features-list {
+    list-style-type: disc;
+    min-height: 309px;
+}
+
+@media all and (max-width: 991px){
+    #pricing-section .pricing-plan .features-box .features-list{
+        height: auto !important;
+    }
+}
+
+#pricing-section .pricing-plan .features-box .features-list li {
+    text-align: left;
+    list-style: disc outside none;
+}
+
+#pricing-section .pricing-plan .top-line {
+    height: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#pricing-section .get-quote-plan .pricing-plan .top-line {
+    background-color: #2380FF;
+}
+
+#pricing-section .premium-plan .pricing-plan .top-line {
+    background-color: #7EC349;
+}
+
+#pricing-section .upgrade-plan .pricing-plan .top-line {
+    background-color: #F58D37;
+}
+
+#pricing-section .upgrade-plan{
+    margin-top: 30px;
+}
+
+#pricing-section .pricing-plan .main-info {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+#pricing-section .premium-plan .pricing-plan .main-info {
+    background-color: transparent;
+}
+
+#pricing-section.page-section .pricing-plan-info {
+    position: relative;
+    padding: 20px;
+}
+
+#pricing-section.page-section .pricing-plan-info__text h2 {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#pricing-section.page-section .pricing-plan-info__text span {
+    display: block;
+    text-align: left;
+}
+
+
+#pricing-section.page-section .get-quote-plan .pricing-plan-info__text h2,
+#pricing-section.page-section .get-quote-plan .pricing-plan-info__text span {
+    color: #2380FF;
+}
+
+#pricing-section.page-section .premium-plan .pricing-plan-info__text h2,
+#pricing-section.page-section .premium-plan .pricing-plan-info__text span {
+    color: #7EC349;
+}
+#pricing-section.page-section .upgrade-plan .pricing-plan-info__text h2 {
+    color: #F58D37;
+}
+
+#pricing-section.page-section .upgrade-plan .pricing-plan-info__text h2,
+#pricing-section.page-section .upgrade-plan .pricing-plan-info__text span {
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+#pricing-section.page-section .pricing-plan-info__price {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#pricing-section.page-section .pricing-plan-info__price p {
+    display: inline-block;
+    font-size: 3.37em;
+    line-height: 62%;
+    font-weight: 400;
+    color: #2d343e;
+    margin-bottom: 0;
+}
+
+#pricing-section.page-section .pricing-plan-info__price span {
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#pricing-section.page-section .pricing-plan-info__price .currency {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.5em;
+    line-height: 100%;
+    font-weight: 600;
+    color: #2d343e;
+    margin: 0;
+}
+
+#pricing-section .upgrade-plan .pricing-plan .features-box {
+    min-height: auto;
+}
+
+.btn-upgrade,
+.btn-upgrade:hover,
+.btn-upgrade:active,
+.btn-upgrade:focus{
+    background: #F58D37;
+    color: #fff;
+}
+
+footer {
+    font-size: 14px;
+    background-color: #242d37;
+    padding: 60px 30px;
+    color: #fff;
+}
+
+footer a:focus,
+footer a:hover {
+    color: #06b7f0;
+    text-decoration: none;
+}
+
+footer section h5 {
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #969fa8;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+footer section li a {
+    padding: 3px 0;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer #copyright {
+    padding-top: 20px;
+    color: #969fa8;
+}
+
+footer #copyright li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer #copyright img {
+    max-height: 26px;
+    width: auto;
+    margin-right: 30px;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    #pricing-section .pricing-plan .features-box .features-list{
+        min-height: 412px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 38px;
+        font-size: 0.7em;
+    }
+
+    .navbar-default .navbar-nav>li {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-default {
+        min-height: 80px;
+    }
+    #testimonial-section.page-section .quote__text {
+        font-size: 20px;
+    }
+    #testimonial-section.page-section .quote {
+        margin-bottom: 24px;
+    }
+    #testimonial-section.page-section .quote-author__image {
+        width: 60px;
+        height: 60px;
+    }
+    #pricing-section.page-section .brands-list li {
+        margin-bottom: 30px;
+    }
+    #pricing-section.page-section .brands-list {
+        margin-bottom: 10px;
+    }
+    #pricing-section .pricing-plan .features-box .features-list {
+        height: auto;
+    }
+    #testimonial-section.page-section .quote-author {
+        margin-bottom: 50px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 38px;
+        font-size: 0.6em;
+    }
+    .nav>li:last-child {
+        padding: 0 15px;
+    }
+    .page-section .section-title {
+        font-size: 1.95em;
+    }
+    #pricing-section .get-quote-plan {
+        margin-bottom: 30px;
+    }
+    #pricing-section .pricing-plan .features-box {
+        height: auto;
+    }
+    .nav>li {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default {
+        min-height: 65px;
+    }
+    #pricing-section .pricing-plan .features-box {
+        height: auto;
+    }
+    #pricing-section .pricing-plan .features-box .features-list {
+        height: auto;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 38px;
+        font-size: 0.9em;
+        text-align: center;
+        text-align: -webkit-center;
+    }
+}
