@@ -112,8 +112,8 @@
     margin: 0 10px;
 }
 #pricing-section.page-section .brands-list li a{
-   text-decoration: underline;
-   color: #2d343e;
+    text-decoration: underline;
+    color: #2d343e;
 }
 
 
@@ -149,7 +149,7 @@
 
 #pricing-section .pricing-plan .features-box .features-list {
     list-style-type: disc;
-    min-height: 309px;
+    min-height: 352px;
 }
 
 @media all and (max-width: 991px){
@@ -196,7 +196,7 @@
 
 #pricing-section.page-section .pricing-plan-info {
     position: relative;
-    padding: 20px;
+    padding: 20px 20px 0;
 }
 
 #pricing-section.page-section .pricing-plan-info__text h2 {
@@ -209,17 +209,28 @@
     display: block;
     text-align: left;
 }
+#pricing-section.page-section .pricing-plan-description {
+    padding: 0 20px;
+    text-align: left;
+}
 
+#pricing-section.page-section .get-quote-plan .pricing-plan-description span {
+    color: #2380FF;
+    font-size: 16px;
+}
+#pricing-section.page-section .premium-plan .pricing-plan-description span {
+    color: #7EC349;
+    font-size: 16px;
+}
 
-#pricing-section.page-section .get-quote-plan .pricing-plan-info__text h2,
-#pricing-section.page-section .get-quote-plan .pricing-plan-info__text span {
+#pricing-section.page-section .get-quote-plan .pricing-plan-info__text h2 {
     color: #2380FF;
 }
 
-#pricing-section.page-section .premium-plan .pricing-plan-info__text h2,
-#pricing-section.page-section .premium-plan .pricing-plan-info__text span {
+#pricing-section.page-section .premium-plan .pricing-plan-info__text h2 {
     color: #7EC349;
 }
+
 #pricing-section.page-section .upgrade-plan .pricing-plan-info__text h2 {
     color: #F58D37;
 }
@@ -272,7 +283,20 @@
     background: #F58D37;
     color: #fff;
 }
-
+.btn-header{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+.btn-header:hover,
+.btn-header:focus,
+.btn-header:active {
+    color: #fff;
+    background:rgba(142, 149, 159, 0.24);
+    border: 2px solid #fff;
+    font-weight: 600;
+}
 footer {
     font-size: 14px;
     background-color: #242d37;
