@@ -5,7 +5,6 @@ $(document).ready(function() {
         autoScrolling: true,
         verticalCentered: false,
         scrollOverflow: true,
-        slidesNavigation: true,
         scrollingSpeed: 400
     });
 
