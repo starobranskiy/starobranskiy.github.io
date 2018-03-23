@@ -25,7 +25,7 @@
         <div class="buttons">
             <ul class="list-unstyled main-nav d-flex flex-row align-items-center">
                 <li><a href="#login-sign-in">Login</a></li>
-                <li style="margin-left: 10px;"><a href="#login-sign-in" class="btn btn-register">Sign Up</a></li>
+                <li style="margin-left: 10px;"><a data-toggle="modal" href="#" data-target="#login-signup" class="btn btn-register">Sign Up</a></li>
             </ul>
         </div>
     </div>
@@ -79,52 +79,52 @@
                 <div class="d-flex flex-row" style="margin-bottom: 2rem;">
                     <div class="col-sm-4">
                         <div class="feature-img">
-                            <img src="img/feature.png" alt="">
+                            <span><img src="img/monitor-tablet-and-smartohone.png" alt=""></span>
                         </div>
                         <div class="features-description text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p>Доступ з будь-якого пристрою</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="feature-img">
-                            <img src="img/feature.png" alt="">
+                            <span><img src="img/dentist.png" alt=""></span>
                         </div>
                         <div class="features-description text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p>Необмежена кількість лікарів в системі</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="feature-img">
-                            <img src="img/feature.png" alt="">
+                            <span><img src="img/records.png" alt=""></span>
                         </div>
                         <div class="features-description text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p>Зручна зубна формула з історією змін</p>
                         </div>
                     </div>
                 </div>
                 <div class="d-flex flex-row">
                     <div class="col-sm-4">
                         <div class="feature-img">
-                            <img src="img/feature.png" alt="">
+                            <span><img style="left: 5px;" src="img/appointment.png" alt=""></span>
                         </div>
                         <div class="features-description text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p>Календар для зручного керування візитами</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="feature-img">
-                            <img src="img/feature.png" alt="">
+                            <span><img src="img/mail-send.png" alt=""></span>
                         </div>
                         <div class="features-description text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p>Розсилка емейлів та смс та нагадування про візит</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="feature-img">
-                            <img src="img/feature.png" alt="">
+                            <span><img src="img/xray.png" alt=""></span>
                         </div>
                         <div class="features-description text-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p>Робота з рентгенами та фотографіями</p>
                         </div>
                     </div>
                 </div>
@@ -135,14 +135,14 @@
         <div class="testimonial__content d-flex justify-content-center align-items-center" style="height: 100%">
             <div class="container content text-center">
                 <header>
-                    <h2>Clients Testimonials</h2>
+                    <h2>Відгуки клієнтів</h2>
                 </header>
                 <div class="swiper-container testimonials-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="testimonial">
                                 <div class="row">
-                                    <p class="feedback col-lg-8 mx-auto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                                    <p class="feedback col-lg-8 mx-auto">Користуюсь сервісом близько двох місяців і повністю задоволений його роботою. Зубна формула і зручний календар це просто те що треба</p>
                                 </div>
                                 <div class="user d-flex align-items-center justify-content-center">
                                     <div class="avatar"><img src="img/img-1.png" alt="Oleh Petrenko" class="img-fluid"></div>
@@ -190,77 +190,124 @@
             </div>
         </div>
     </div>
-    <div id="login-sign-in" class="section text-center">
-        <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-            <div class="container content d-flex align-items-center justify-content-center" >
-                <div class="panel panel-login d-flex flex-column justify-content-center align-items-center">
-                    <div class="panel-heading">
-                        <div class="d-flex flex-row align-items-center justify-content-center">
-                            <a href="#" class="active" id="login-form-link">Login</a>
-                            <a href="#" id="register-form-link">Register</a>
+    <div id="advantages" class="section text-center">
+        <div class="advantages__content d-flex justify-content-center align-items-center" style="height: 100%">
+            <div class="container content d-flex flex-column justify-content-center align-items-center">
+                <div class="row d-flex">
+                    <div class="col-md-4">
+                        <div class="advantages-item">
+                            <div class="advantages-image">
+                                <span><img src="img/stopwatch.png" alt=""></span>
+                            </div>
+                            <div class="advantages-description text-center">
+                                <p>Ми економимо ваш час</p>
+                            </div>
                         </div>
-                        <hr>
                     </div>
-                    <div class="panel-body">
-                        <form id="login-form" role="form" style="display: block;">
-                            <div class="form-group">
-                                <input type="email" name="username" id="emailLogin" tabindex="1" class="form-control" placeholder="Email" value="">
+                    <div class="col-md-4">
+                        <div class="advantages-item">
+                            <div class="advantages-image">
+                                <span><img src="img/smartphone.png" alt=""></span>
                             </div>
-                            <div class="form-group">
-                                <input type="password" name="password" id="loginPassword" tabindex="2" class="form-control" placeholder="Password">
+                            <div class="advantages-description text-center">
+                                <p>Все в одному місці і завжди під рукою</p>
                             </div>
-                            <div class="form-group styled-checkbox">
-                                <label class="label-checkbox" for="remember">Remember Me
-                                    <input type="checkbox" id="remember" name="remember" checked="checked">
-                                    <span class="checkmark"></span>
-                                </label>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="advantages-item">
+                            <div class="advantages-image">
+                                <span><img src="img/no-credit-card.png" alt=""></span>
                             </div>
-                            <div class="form-group text-center">
-                                <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                            <div class="advantages-description text-center">
+                                <p>Ви можете нам не платити</p>
                             </div>
-                            <div class="form-group">
-                                <div class="text-center">
-                                    <a href="#" tabindex="5" class="forgot-password">Forgot Password?</a>
-                                </div>
-                            </div>
-                        </form>
-                        <form id="register-form" role="form" style="display: none;">
-                            <div class="form-group">
-                                <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" name="phone" id="phone" tabindex="1" class="form-control" placeholder="Phone" value="">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register-form" value="Register Now">
-                            </div>
-                        </form>
-                        <form id="recover-form" role="form" style="display: none;">
-                            <div class="form-group">
-                                <input type="email" name="emailRecover" id="emailRecover" tabindex="1" class="form-control" placeholder="Email Address" value="">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="recover-submit" id="recover-submit" tabindex="4" class="form-control btn btn-recover-form" value="Recover">
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</div>
+
+<div class="modal fade" id="login-signup" tabindex="-1" role="dialog" aria-labelledby="login-signup" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-login d-flex flex-column justify-content-center align-items-center">
+                <div class="panel-heading">
+                    <div class="d-flex flex-row align-items-center justify-content-center">
+                        <a href="#" class="active" id="login-form-link">Login</a>
+                        <a href="#" id="register-form-link">Register</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="panel-body">
+                    <form id="login-form" role="form" style="display: block;">
+                        <div class="form-group">
+                            <input type="email" name="username" id="emailLogin" tabindex="1" class="form-control" placeholder="Email" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" id="loginPassword" tabindex="2" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="form-group styled-checkbox">
+                            <label class="label-checkbox" for="remember">Remember Me
+                                <input type="checkbox" id="remember" name="remember" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                        </div>
+                        <div class="form-group">
+                            <div class="text-center">
+                                <a href="#" tabindex="5" class="forgot-password">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </form>
+                    <form id="register-form" role="form" style="display: none;">
+                        <div class="form-group">
+                            <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" tabindex="1" class="form-control" placeholder="Phone" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register-form" value="Register Now">
+                        </div>
+                    </form>
+                    <form id="recover-form" role="form" style="display: none;">
+                        <div class="form-group">
+                            <input type="email" name="emailRecover" id="emailRecover" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="recover-submit" id="recover-submit" tabindex="4" class="form-control btn btn-recover-form" value="Recover">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Optional JavaScript -->
-<script src="js/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/swiper.min.js"></script>
